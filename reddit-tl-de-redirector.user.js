@@ -7,8 +7,8 @@
 // @match        *://www.reddit.com/*
 // @icon         https://www.redditstatic.com/desktop2x/img/favicon/apple-icon-57x57.png
 // @grant        none
-// @updateURL    https://github.com/DeinBenutzername/DeinRepository/raw/main/reddit-tl-de-redirector.user.js
-// @downloadURL  https://github.com/DeinBenutzername/DeinRepository/raw/main/reddit-tl-de-redirector.user.js
+// @updateURL    https://github.com/SecretUnicorn/RedditShowOriginalUserScript/raw/main/reddit-tl-de-redirector.user.js
+// @downloadURL  https://github.com/SecretUnicorn/RedditShowOriginalUserScript/raw/main/reddit-tl-de-redirector.user.js
 // ==/UserScript==
 
 (function() {
