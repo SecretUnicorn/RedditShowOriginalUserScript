@@ -14,18 +14,17 @@
 (function() {
     'use strict';
 
-    // Überprüfen, ob die URL ein '?tl=XX' (beliebige Sprache) enthält
+    
     const urlParams = new URLSearchParams(window.location.search);
 
-    // Prüfen, ob der Parameter 'tl' existiert
+    // Check if URL contains '?tl=XX'
     if (urlParams.has('tl')) {
-        // Alte URL
         let currentUrl = window.location.href;
 
-        // Entferne den 'tl' Parameter und füge '?show=original' hinzu
+        // Remove 'tl' parameter and add '?show=original'
         let newUrl = currentUrl.replace(/(\?|&)tl=[^&]+/, '$1show=original');
 
-        // Weiterleiten zur neuen URL
+        // Redirect to new url
         window.location.replace(newUrl);
     }
 })();
