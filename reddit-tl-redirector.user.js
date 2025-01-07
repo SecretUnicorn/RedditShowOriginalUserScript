@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Reddit TL to ORIGINAL Redirector
 // @namespace    http://tampermonkey.net/
-// @version      1.0.2
+// @version      1.0.3
 // @description  Checks if reddit shows you a translated version and automaticly redirect you to show the original post
 // @author       SecretUnicorn
 // @match        *://www.reddit.com/*
@@ -14,7 +14,6 @@
 (function() {
     'use strict';
 
-    
     const urlParams = new URLSearchParams(window.location.search);
 
     // Check if URL contains '?tl=XX'
